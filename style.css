@@ -30,7 +30,7 @@ body {
 
 /* Components */
 body {
-    background-color:rgba(243, 150, 200, 0.966);
+    background-color:rgba(241, 241, 216, 0.932);
     color: rgb(93, 85, 192);
 }
 
@@ -43,14 +43,15 @@ body {
 .header-title {
    font-size: 7rem;
    font-family: 'Nanum Pen Script', cursive;
-   font-weight: 600;
-   line-height: 1;
-   color:rgb(228, 216, 216);
+   font-weight: 500;
+   line-height: 0.8;
+   color:rgb(148, 173, 218);
 }
 
 .header-title strong {
     display: block;
-    color:rgba(209, 212, 238, 0.849)
+    margin-bottom: 0.8rem;
+    color:rgba(92, 105, 223, 0.849)
 }
 
 .header-meta {
@@ -65,7 +66,7 @@ body {
     content: ' ';
     margin: 0 2rem;
     background-color: currentColor;
-    width: 10rem;
+    width: 3rem;
     height: 3px;
 }
 
@@ -114,7 +115,7 @@ body {
 .parts-profile {
     width: 80px;
     height: 80px;
-    border-radius: 3px 50% 50% 3px;
+    border-radius: 6px 30% 30% 6px;
     box-shadow: 0 0 40px rgba(133, 148, 224, 0.548);
 }
 
@@ -132,14 +133,14 @@ body {
 }
 
 .parts-agenda h2 {
-    color: rgb(141, 121, 97);
+    color: rgb(70, 68, 70);
     font-size: 3.2rem;
     font-family: 'Nanum Pen Script', cursive;
     line-height: 1.1;
 }
 
 .parts-role {
-    color: rgb(219, 72, 207);
+    color: rgb(126, 43, 119);
     display: flex;
     align-items: center;
 }
@@ -164,13 +165,13 @@ body {
     font-family: 'Nanum Pen Script', cursive;
     font-size: 60px;
     font-weight: 700;
-    color: rgb(177, 168, 168);
+    color: rgb(141, 199, 148);
     margin-bottom: 30px;
     border-bottom: 2.5px solid black;
 }
 
 .links>a{
-    color: blanchedalmond;
+    color: rgba(223, 168, 87, 0.514);
     text-decoration: none;
     font-family:'Nanum Pen Script', cursive;
     font-size: 25px;
